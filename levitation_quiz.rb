@@ -1,6 +1,7 @@
 
 def levitation_quiz
-	#your code here
+	while answer != "Wingarduio Leviosa"
+    puts "What is the spell that enacts leviation?"
+    answer = gets.chomp
+    break if answer == "Wingarduio Leviosa"
 end
-
-
